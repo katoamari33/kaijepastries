@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaije Pastries - Home of Delicious Treats</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="Images/LOGO.JPG" alt="Kaije Pastries Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li>
+                        <a href="about.html">About</a>
+                        <ul class="dropdown">
+                            <li><a href="about.html#history">History</a></li>
+                            <li><a href="about.html#team">Team</a></li>
+                            <li><a href="about.html#values">Values</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="products.html">Products</a>
+                        <ul class="dropdown">
+                            <li><a href="products.html#cakes">Cakes</a></li>
+                            <li><a href="products.html#doughnuts">Doughnuts</a></li>
+                            <li><a href="products.html#cookies">Cookies</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="slider-container">
+            <div class="slider">
+                <div class="slide active">
+                    <img src="Images/slider.WEBP" alt="Delicious Cakes">
+                    <div class="slide-content">
+                        <h2>Exquisite Handcrafted Cakes</h2>
+                        <p>Made with love and the finest ingredients</p>
+                        <a href="products.html#cakes" class="btn">View Cakes</a>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="Images/Daddies.PNG" alt="Fresh Daddies">
+                    <div class="slide-content">
+                        <h2>Freshly Made Daddies</h2>
+                        <p>Daily baked perfection for your sweet cravings</p>
+                        <a href="products.html#daddies" class="btn">View Daddies</a>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="Images/Cookies.jpeg" alt="Artisanal Cookies">
+                    <div class="slide-content">
+                        <h2>Artisanal Cookies</h2>
+                        <p>Crunchy, chewy, and utterly delicious</p>
+                        <a href="products.html#cookies" class="btn">View Cookies</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-nav">
+                <button class="prev"><i class="fas fa-chevron-left"></i></button>
+                <button class="next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+            <div class="slider-dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+    </section>
+
+    <section class="intro">
+        <div class="container">
+            <h1>Welcome to Kaije Pastries</h1>
+            <p>Founded in 2018 as a small home recipe bakery in Kitumba by Mrs Katekaine Shadiah and Mrs Kaboneke Shamiilah (R.I.P), Kaije Pastries has grown into a beloved bakery in Nyakasura, Fort Portal Tourism City. We specialize in creating delicious cakes, daddies, and cookies using traditional recipes with a modern twist.</p>
+            <div class="cta-buttons">
+                <a href="products.html" class="btn">Our Products</a>
+                <a href="contact.html" class="btn secondary">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="featured-products">
+        <div class="container">
+            <h2>Our Signature Items</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="Images/classic vanilla.jpg" alt="Signature Cake">
+                    <h3>Celebration Cakes</h3>
+                    <p>Custom designed for your special occasions</p>
+                </div>
+                <div class="product-card">
+                    <img src="Images/Daddies.PNG" alt="Daddies">
+                    <h3>Glazed Daddies</h3>
+                    <p>Our bestseller - light, fluffy, and perfectly sweet</p>
+                </div>
+                <div class="product-card">
+                    <img src="Images/Cookies.jpeg" alt=" Cookies">
+                    <h3> Cookies</h3>
+                    <p>Classic recipe with premium chocolate</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Kaije Pastries</h3>
+                    <p>Nyakasura, Fort Portal Tourism City</p>
+                    <p>0781360884</p>
+                    <p>kaijepastries@gmail.com</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Kaije Pastries. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="slider.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
